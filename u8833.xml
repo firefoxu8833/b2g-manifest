@@ -56,6 +56,24 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="jb-dev" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="jb-dev" />
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="jb-dev" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="jb-dev" />
 
   <!-- Linaro -->
   <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="master" />
@@ -109,6 +127,7 @@
   <project path="frameworks/native" name="android_frameworks_native" />
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" />
+  <project path="gdk" name="android_gdk" />
   <project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" />
@@ -117,8 +136,13 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" />
   <project path="hardware/ril" name="android_hardware_ril" />
+  <project path="libnativehelper" name="android_libnativehelper" />
   <project path="libcore" name="android_libcore" />
   <project path="ndk" name="android_ndk" />
+  <project path="pdk" name="android_pdk" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" />
+  <project path="prebuilts/misc" name="android_prebuilts_misc" />
+  <project path="prebuilts/tools" name="android_prebuilts_tools" />
   <project path="system/bluetooth" name="android_system_bluetooth" />
   <project path="system/core" name="android_system_core" />
   <project path="system/extras" name="android_system_extras" />
