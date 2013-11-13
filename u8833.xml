@@ -122,10 +122,6 @@
   <project path="system/media" name="android_system_media" />
   <project path="system/netd" name="android_system_netd" />
   <project path="system/vold" name="android_system_vold" />
-  <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="android_vendor_qcom_opensource_kernel-tests_mm-audio" />
-  <project path="vendor/qcom/opensource/omx/mm-audio" name="android_vendor_qcom_opensource_omx_mm-audio" />
-  <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" />
-  <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
 
   <!-- U8833 -->
