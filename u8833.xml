@@ -104,11 +104,11 @@
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" />
   <project path="external/zlib" name="android_external_zlib" />
   <project path="external/yaffs2" name="android_external_yaffs2" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
+  <project path="frameworks/av" name="android_frameworks_av" />
   <project path="frameworks/base" name="android_frameworks_base" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />
+  <project path="frameworks/native" name="android_frameworks_native" />
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" />
-  <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
+  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" />
   <project path="hardware/atheros/wlan" name="android_hardware_atheros_wlan" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" />
