@@ -107,6 +107,7 @@
   <project path="external/libpng" name="android_external_libpng" />
   <project path="external/libvpx" name="android_external_libvpx" />
   <project path="external/llvm" name="android_external_llvm" />
+  <project path="external/mdnsresponder" name="android_external_mdnsresponder" />
   <project path="external/openssl" name="android_external_openssl" />
   <project path="external/protobuf" name="android_external_protobuf" />
   <project path="external/safe-iop" name="android_external_safe-iop" />
