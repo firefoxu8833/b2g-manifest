@@ -18,6 +18,8 @@
         fetch="git://codeaurora.org/" />
   <remote name="linaro"
         fetch="git://android.git.linaro.org/" />
+  <remote name="apitrace"
+        fetch="git://github.com/apitrace/" />
   <remote name="mozillaorg"
         fetch="https://git.mozilla.org/releases" />
   <remote name="github"
@@ -36,7 +38,6 @@
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="external/apitrace" name="apitrace/apitrace.git" remote="github" revision="master" />
   <project path="external/apriori" name="platform_external_apriori" remote="b2ggithub" revision="master" />
   <project path="external/elfcopy" name="platform_external_elfcopy" remote="b2ggithub" revision="master" />
   <project path="external/elfutils" name="platform_external_elfutils" remote="b2ggithub" revision="master" />
@@ -99,6 +100,7 @@
   <project path="external/icu4c" name="android_external_icu4c" />
   <project path="external/iptables" name="android_external_iptables" />
   <project path="external/jpeg" name="android_external_jpeg" />
+  <project path="external/junit" name="android_external_junit" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" />
   <project path="external/libgsm" name="android_external_libgsm" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" />
@@ -150,6 +152,9 @@
   <project path="system/netd" name="android_system_netd" />
   <project path="system/vold" name="android_system_vold" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" />
+  
+  <!-- Apitrace -->
+  <project path="external/apitrace" name="apitrace" remote="apitrace" revision="master" />
 
   <!-- U8833 -->
   <project path="device/huawei/u8833" name="android_device_huawei_u8833" remote="firefoxu8833" revision="b2g" />
