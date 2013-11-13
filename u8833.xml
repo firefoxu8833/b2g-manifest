@@ -88,6 +88,8 @@
   <project path="external/bsdiff" name="android_external_bsdiff" />
   <project path="external/busybox" name="android_external_busybox" />
   <project path="external/bzip2" name="android_external_bzip2" />
+  <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
+  <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" />
   <project path="external/dbus" name="android_external_dbus" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" />
