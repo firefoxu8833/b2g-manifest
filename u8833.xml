@@ -76,7 +76,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="jb-dev" />
 
   <!-- Linaro -->
-  <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="master" />
+  <project path="external/gtest" name="platform/external/gtest" remote="linaro" revision="refs/heads/jb-dev" />
 
   <!-- CyanogenMod -->
   <project path="bionic" name="android_bionic" />
