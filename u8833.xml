@@ -95,6 +95,7 @@
   <project path="external/fdlibm" name="android_external_fdlibm" />
   <project path="external/flac" name="android_external_flac" />
   <project path="external/freetype" name="android_external_freetype" />
+  <project path="external/gcc-demangle" name="android_external_gcc-demangle" />
   <project path="external/giflib" name="android_external_giflib" />
   <project path="external/icu4c" name="android_external_icu4c" />
   <project path="external/iptables" name="android_external_iptables" />
