@@ -83,7 +83,7 @@
   <project path="bionic" name="android_bionic" />
   <project path="bootable/recovery" name="android_bootable_recovery" />
   <project path="development" name="android_development" />
-  <project path="external/aac" name="CyanogenMod/android_external_aac" />
+  <project path="external/aac" name="android_external_aac" />
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" />
   <project path="external/bluetooth/glib" name="android_external_bluetooth_glib" />
   <project path="external/bluetooth/hcidump" name="android_external_bluetooth_hcidump" />
